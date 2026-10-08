@@ -1,0 +1,20 @@
+name = "cf-research-assistant"
+main = "src/index.ts"
+compatibility_date = "2024-12-05"
+compatibility_flags = ["nodejs_compat"]
+
+[assets]
+directory = "./public"
+
+[ai]
+binding = "AI"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "research-assistant-db"
+database_id = "3e1fed5b-4359-424b-9fc0-bb8e4b8f6551"
+
+[[workflows]]
+binding = "RESEARCH_WORKFLOW"
+name = "research-workflow"
+class_name = "ResearchWorkflow"
